@@ -1,6 +1,7 @@
 module.exports = {
   up: (queryInterface) => queryInterface.bulkInsert('Territories', [
     {
+      id: 1,
       userId: null,
       kingdomId: 5,
       shieldId: null,
@@ -8,6 +9,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 2,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -15,6 +17,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 3,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -22,6 +25,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 4,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -29,6 +33,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 5,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -36,6 +41,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 6,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -43,6 +49,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 7,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -50,6 +57,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 8,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -57,6 +65,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 9,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -64,6 +73,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 10,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -71,6 +81,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 11,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -78,6 +89,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 12,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -85,6 +97,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 13,
       userId: null,
       kingdomId: 5,
       shieldId: null,
@@ -92,6 +105,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 14,
       userId: null,
       kingdomId: 5,
       shieldId: null,
@@ -99,6 +113,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 15,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -106,6 +121,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 16,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -113,6 +129,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 17,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -120,6 +137,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 18,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -127,6 +145,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 19,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -134,6 +153,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 20,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -141,6 +161,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 21,
       userId: null,
       kingdomId: 2,
       shieldId: null,
@@ -148,6 +169,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 22,
       userId: null,
       kingdomId: 5,
       shieldId: null,
@@ -155,6 +177,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 23,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -162,6 +185,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 24,
       userId: null,
       kingdomId: 5,
       shieldId: null,
@@ -169,6 +193,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 25,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -176,6 +201,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 26,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -183,6 +209,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 27,
       userId: null,
       kingdomId: 4,
       shieldId: null,
@@ -190,6 +217,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 28,
       userId: null,
       kingdomId: 1,
       shieldId: null,
@@ -197,6 +225,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 29,
       userId: null,
       kingdomId: 3,
       shieldId: null,
@@ -204,6 +233,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 30,
       userId: null,
       kingdomId: 5,
       shieldId: null,
