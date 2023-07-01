@@ -44,7 +44,7 @@ router.post('board.start', '/', async (ctx) => {
     console.log("--------PLAYERS--------", playerCount)
 
 
-    if (playerCount === 3) {
+    if (playerCount === 3 && game === null) {
       gameStatus = true;
       const users = await ctx.orm.User.findAll({
         where: { playing: true },
