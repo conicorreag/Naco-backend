@@ -1,6 +1,7 @@
 module.exports = {
   up: (queryInterface) => queryInterface.bulkInsert('Shields', [
     {
+      id: 1,
       name: 'Stark',
       userId: null,
       img: 'stark.jpg',
@@ -8,6 +9,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 2,
       name: 'Baretheon',
       userId: null,
       img: 'baratheon.jpg',
@@ -15,6 +17,7 @@ module.exports = {
       updatedAt: new Date(),
     },
     {
+      id: 3,
       name: 'Targaryen',
       userId: null,
       img: 'targaryen.jpg',
