@@ -27,7 +27,14 @@
         "camelcase": "off",
         "no-plusplus": "off",
         "eqeqeq": "off",
-        "radix": "off"
+        "radix": "off",
+        "no-multiple-empty-lines": [
+            "error",
+            {
+                "max": 1,
+                "maxEOF": 0
+            }
+        ]
     }
    
 }

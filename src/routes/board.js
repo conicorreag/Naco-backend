@@ -40,7 +40,7 @@ router.post('board.start', '/', async (ctx) => {
     const players = await ctx.orm.User.findAll({
       where: { playing: true },
     });
-    const playerCount = players.length;
+    let playerCount = players.length;
     console.log("--------PLAYERS--------", playerCount)
 
 
