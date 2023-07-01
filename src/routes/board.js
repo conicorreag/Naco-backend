@@ -4,7 +4,7 @@ const router = new Router();
 
 // false si todavia no parte el juego, true si estamos jugando
 let gameStatus = false;
-let playerCount = 0;
+// let playerCount = 0;
 // let isProcessing = false;
 
 router.post('board.start', '/', async (ctx) => {
@@ -26,16 +26,23 @@ router.post('board.start', '/', async (ctx) => {
     if (game === null) {
       const user1 = await ctx.orm.User.findOne({ where: { id: user_id } });
       if (user1.playing == false) {
-        playerCount++;
+        // playerCount++;
         await ctx.orm.User.update(
           { playing: true },
           { where: { id: user_id } },
         );
       }
-      console.log("--------PLAYING--------", playerCount)
+      
       
 
     }
+
+    const players = await ctx.orm.User.findAll({
+      where: { playing: true },
+    });
+    const playerCount = players.length;
+    console.log("--------PLAYERS--------", playerCount)
+
 
     if (playerCount === 3) {
       gameStatus = true;
