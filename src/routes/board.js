@@ -23,7 +23,7 @@ router.post('board.start', '/', async (ctx) => {
 
     const game = await ctx.orm.Game.findOne({ where: { playing: true } });
 
-    if (game == null) {
+    if (game === null) {
       const user1 = await ctx.orm.User.findOne({ where: { id: user_id } });
       if (user1.playing == false) {
         playerCount++;
@@ -32,6 +32,8 @@ router.post('board.start', '/', async (ctx) => {
           { where: { id: user_id } },
         );
       }
+      console.log("--------PLAYING--------", playerCount)
+      
 
     }
 
@@ -40,6 +42,8 @@ router.post('board.start', '/', async (ctx) => {
       const users = await ctx.orm.User.findAll({
         where: { playing: true },
       });
+      console.log('-------USERS------:', users);
+
       // Crear juego
       const game1 = await ctx.orm.Game.create({
         playing: true, current_turn: 1, createdAt: new Date(), updatedAt: new Date(),
